@@ -1,0 +1,13 @@
+name = "fqnovel-api"
+main = "build/worker/shim.mjs"
+compatibility_date = "2024-09-06"
+
+
+[vars]
+install_id = "..."
+server_device_id = "..."
+aid = "1967"
+update_version_code = "62532"
+
+[build]
+command = "cargo install -q worker-build && worker-build --release"
